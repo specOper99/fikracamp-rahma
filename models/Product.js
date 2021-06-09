@@ -6,7 +6,7 @@ const productSchema = mongoose.Schema({
     required: true,
     trim: true,
     get: (val) => {
-      return encodeURI(`http://specoper99.fikracamp.com/${val}`);
+      return encodeURI(`http://specoper99.fikracamp.com:29999/${val}`);
     },
   },
   title: {
@@ -54,5 +54,5 @@ const productSchema = mongoose.Schema({
 productSchema.set('toObject', { getters: true });
 productSchema.set('toJSON', { getters: true });
 
-const Product = mongoose.model('Product-Mustafa', productSchema);
+const Product = mongoose.model('Product-Rahma', productSchema);
 module.exports = Product;

@@ -36,7 +36,7 @@ blogSchema.set('toObject', { getters: true });
 blogSchema.set('toJSON', { getters: true });
 
 
-const Blog = mongoose.model('Blog-Mustafa', blogSchema);
+const Blog = mongoose.model('Blog-Rahma', blogSchema);
 
 
 module.exports = Blog;

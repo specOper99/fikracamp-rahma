@@ -19,7 +19,7 @@ const departmentSchema = mongoose.Schema({
     }
 });
 
-const Department = mongoose.model('Department-Mustafa', departmentSchema);
+const Department = mongoose.model('Department-Rahma', departmentSchema);
 
 
 module.exports = Department;
